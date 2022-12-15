@@ -1,7 +1,10 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: 
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+- type: webfuzzsub
+  options:
+    url: https://github.com/JACKUSR2089/v2ray-subscribed
 
 # 订阅链接
 - type: subscribe
@@ -55,22 +58,22 @@
 - type: subscribe
   options:
     url: https://v2ray.banyunxiaoxi.ml/
+    
+- type: subscribe
+  options:
+    url: https://bulink.me/sub/gkmhzb/vm
+
 
 # 网页模糊抓取
 - type: webfuzz
   options:
-    url: 
+    url: https://zfjvpn.gitbook.io/123/
 
 # tg频道抓取
 - type: tgchannel
   options:
     channel: 
     num: 200
-
-# 翻墙党论坛抓取
-- type: web-fanqiangdang
-  options:
-    url: 
 
 # clash格式订阅链接
 - type: clash
