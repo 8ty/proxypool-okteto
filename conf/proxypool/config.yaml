@@ -18,15 +18,16 @@ database_url: ""
 crawl-interval: 45      # v0.5.x default 60 (minutes)
 crontime:             # v0.4.x default 60 (minutes). Deprecated in the newest version
 
-
+healthcheck-timeout: 20      # v0.7.x default 5 (seconds)
+healthcheck-connection:    # v0.7.2 default 500
 
 # speed test
 speedtest: true         # default false. Warning: this will consume large network resources.
-speedtest-interval: 20  # default 720 (min)
+speedtest-interval: 144  # default 720 (min)
 connection: 8          # default 5. The number of speed test connections simultaneously
 timeout: 20              # default 10 (seconds).
 ## active proxy speed test
-active-interval: 35     # default 60 (min)
+active-interval: 120     # default 60 (min)
 active-frequency: 5    # default 100 (requests per interval)
 active-max-number: 500   # default 100. If more than this number of active proxies, the extra will be deprecated by speed
 
