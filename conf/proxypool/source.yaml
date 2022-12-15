@@ -73,6 +73,10 @@
   options:
     url: https://zfjvpn.gitbook.io/123/
 
+- type: webfuzz
+  options:
+    url: https://www.google.com/search?q=vmess%E8%8A%82%E7%82%B9%E8%AE%A2%E9%98%85
+
 # tg频道抓取
 - type: tgchannel
   options:
