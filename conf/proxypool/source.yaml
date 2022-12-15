@@ -63,6 +63,10 @@
   options:
     url: https://bulink.me/sub/gkmhzb/vm
 
+- type: webfuzz
+  options:
+    url: https://zfjvpn.gitbook.io/123/
+
 
 # 网页模糊抓取
 - type: webfuzz
@@ -1263,3 +1267,40 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/LITTLESITE/get_nodefree/main/sub.yaml
+
+
+- type: webfuzz
+  options:
+    url: https://www.cfmem.com/feeds/posts/default?alt=rss
+    
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/vveg26/share/main/sub/v2
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/vveg26/SubAutoConv/main/sub/clash/selfnode.yaml
+    
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/vveg26/GetNode/master/Eternity.yml
+    
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/vveg26/GetNode/master/sub/sub_merge.txt
+
+- type: webfuzz
+  options:
+    url: https://github.com/vveg26/GetNode
+
+
+
+
+
+
+    
+
