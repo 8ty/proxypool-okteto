@@ -24,7 +24,7 @@ healthcheck-connection:    # v0.7.2 default 500
 # speed test
 speedtest: true         # default false. Warning: this will consume large network resources.
 speedtest-interval: 144  # default 720 (min)
-connection: 20          # default 5. The number of speed test connections simultaneously
+connection: 50          # default 5. The number of speed test connections simultaneously
 timeout: 20              # default 10 (seconds).
 ## active proxy speed test
 active-interval: 120     # default 60 (min)
